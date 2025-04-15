@@ -1,0 +1,34 @@
+{
+  "name": "secure-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicação React para criar e guardar notas encriptadas no lado do cliente.",
+  "author": "João Cabral",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-username/secure-notes.git"
+  },
+  "homepage": "./",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+      "docs": "jsdoc ./src -r -d docs"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
